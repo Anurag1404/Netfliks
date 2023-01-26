@@ -21,6 +21,11 @@ const App = () => {
 					 exact path='/' 
 					 element={<Movies/>}
 					 />
+					 
+					<Route
+					 exact path='/approved' 
+					 element={<Movies/>}
+					 />
 
 					<Route
 					 exact path='/movie/:id' 
@@ -28,7 +33,7 @@ const App = () => {
 					/>
 
 					<Route
-					 exact path='/actor/:id' 
+					 exact path='/actors/:id' 
 					 element={<Actors />} 
 					 />
 
